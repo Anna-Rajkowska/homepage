@@ -1,26 +1,37 @@
-body{
-    background: rgb(179, 104, 132);
+body {
+  background: rgb(179, 104, 132);
 }
-section{
-    background: rgb(236, 178, 199)
+section {
+  background: rgb(236, 178, 199);
 }
-article{
-    color: brown;
+article {
+  color: brown;
 }
-h1{
-    color: blue;
+h1 {
+  color: blue;
 }
-h2{
-    color: #1460aa;
+h2 {
+  color: #1460aa;
 }
-h3{
-    color: #7690b6;
+h3 {
+  color: #7690b6;
 }
-p{
-    color: rgb(201, 89, 89);
+p {
+  color: rgb(201, 89, 89);
 }
-br{
-    color: brown;
+br {
+  color: brown;
 }
-a{color: bisque;
+a {
+  color: bisque;
 }
+.navigation {
+  background-color: blueviolet;
+}
+.main-header {
+  color: cornflowerblue;
+}
+.section-header {
+  color: #1460aa;
+}
+.paragraph-header {background-color: darkgrey; color: darkorange;}
