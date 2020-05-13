@@ -1,0 +1,49 @@
+Anna Rajkowska - DZIENNIK ze SZKOLENIA WTF
+
+O mnie
+
+Cześć, nazywam się Anna Rajkowska i powstanowiłam rozpocząć swoją przygodę z frontendem. Do tej pory żyłam fotografią i z fotografii, ale rzeczywistość 2020roku dała mi sporo wolnego czasu na naukę nowych umiejętnośći ;) 
+Uwielbiam gotować, pielęgnować ogrody i czytać nowinki techniczne. 
+
+Na codzień mieszkam w Białymstoku i niedawno skończyłam 30 lat. 
+
+HTML = HyperText Markup Language 
+odpowiada z treść strony - jej właściwe "opakowanie"
+Jest to język znacznikow, nie jest to typowy język programowania
+TReść to :
+teksty, nagłówki, linki, listy, definicje, obrazki, video, formularze, wszystko co jest nośnikiem informacji
+
+HTML skłąda się ze znaczników/tagów/elementów
+budowa znaczników:
+
+<znacznik atrybut="wartość">treść</znacznik>
+To co widzimy w przeglądarce jest oznaczone jako treść, znaczniki i tagi są czytane i analizowane przez przeglądarkę i nie są one widoczne dla użytkownika
+
+
+znaczniki html
+
+lang= - język 
+< main > - główna część dokumentu
+< section > - sekcje dokumentu
+< article > - taka sekcja, która może istnieć samodzielnie 
+
+Sekcja to jak np. sekcja sport w gazecie, artykuł to samodzielna grupa treści i może występować samodzielnie.
+
+< header > - naglówek dokumentu<footer> stopka sekcji lub artykułu
+ < h1-h6 > - nagłówki
+< p > - paragraf i akapit
+
+Semantyczny - mający znaczenie
+Pliki HTML mają rozszerzenie .html
+HTML to szkielet strony, jak u ludzika :D składa się z: head, body, 
+HTML nie widzi spacji ani enterów, tabów - wszystko osiąga się dzięki znacznikom
+
+Tworzenie nowej strony:
+1. nowy folder z nazwą, np. HOMEPAGE
+2. nowy plik w środku - index.html
+3. Żeby zacząć tworzyć nową stronę należy w Visual Studio COde wcisnąć ! + tab i program sam tworzy szkielet strony. 
+4. Pamiętać aby zmienić język strony z angielskiego na używany
+5. dodajemy znacznik < main > i VSC sam zamyka tagi
+6. Wrzucamy treść do środka
+
+

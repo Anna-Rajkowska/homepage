@@ -1,0 +1,23 @@
+CSS
+
+czyli Cascading Style Sheets - kaskadowe arkusze stylów
+- odpowiadają za prezentację 
+- wpływa na wygląd elementó HTML na ekranie, wydruków itp. 
+- Skłądnia CSS to reguły
+
+budowa reguły:
+selektor - ma za zadanie wybrać to, co ma być ostylowane
+
+selektor{
+ właściwość:wartość;
+}
+
+- pliki zawierające kod CSS mają rozszerzenie .css
+- można uruchomić je bez używania zewnętrznych plików
+
+Sposoby stylowania:
+1. używanie w kodzie html znacznika style - wstawiamy go w sekcji head - stylowanie po elementach
+2. Stworzenie oddzielnego pliku .css
+
+<link href="style.css" rel="stylesheet"
+			type="text/css">

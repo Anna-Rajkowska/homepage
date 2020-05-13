@@ -1,0 +1,24 @@
+body{
+    background: rgb(179, 104, 132);
+}
+section{
+    background: rgb(236, 178, 199)
+}
+article{
+    color: brown;
+}
+h1{
+    color: blue;
+}
+h2{
+    color: #1460aa;
+}
+h3{
+    color: #7690b6;
+}
+p{
+    color: brown;
+}
+br{
+    color: brown;
+}
