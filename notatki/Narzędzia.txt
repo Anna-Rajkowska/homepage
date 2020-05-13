@@ -1,0 +1,11 @@
+Can I use?
+
+https:// caniuse.com/#feat=es6
+
+
+GIT
+
+git status
+git add .
+git commit -m"nazwa zmiany"
+gtk - wywołanie okna śledzenia zmian 
