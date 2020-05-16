@@ -1,68 +1,93 @@
 <!DOCTYPE html>
 <html lang="pl">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WTF: Anna Rajkowska</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
 
-</head>
+  <body>
+    <main class="main">
+      <div class="navigation-box">
+        <header>
+          <div class="navigation-box__button">
+            <a href="index.html">Strona główna</a>
+          </div>
+          <div class="navigation-box__button"><a href="HTML.html">HTML</a></div>
+          <div class="navigation-box__button"><a href="CSS.html">CSS</a></div>
+          <div class="navigation-box__button">
+            <a href="JavaScript.html">JavaScript</a>
+          </div>
+          <div class="navigation-box__button">
+            <a href="dzienniczek.html">Dzienniczek</a>
+          </div>
+          <div class="navigation-box__button">
+            <a href="narzedzia.html">Narzędzia</a>
+          </div>
+          <div class="navigation-box__button">
+            <a href="praca-domowa.html">Praca domowa</a>
+          </div>
+        </header>
+      </div>
 
-
-<body>
-    <div class="navigation-box">
-
-         <header>
-            <div class="navigation-box__button"><a href="index.html">Strona główna</a></div>
-            <div class="navigation-box__button"> <a href="HTML.html">HTML</a></div>
-            <div class="navigation-box__button"> <a href="CSS.html">CSS</a></div>
-            <div class="navigation-box__button"> <a href="JavaScript.html">JavaScript</a></div>
-            <div class="navigation-box__button"><a href="informacje-ogolne.html">Informacje ogólne</a></div>
-            <div class="navigation-box__button"> <a href="narzedzia.html">Narzędzia</a></div>
-            <div class="navigation-box__button"><a href="praca-domowa.html">Praca domowa</a></div>
-        </nav>
-     </header>
-    </div>
-
-    <div class="box1">
+      <div class="box1">
         <main>
-            <div class="banner">
-                <img src="" alt="">
-                <header id="top">
-                    <div class="banner__header"> <h1>Anna Rajkowska</div>
-                    <div class="banner__header--text"><br><a href="https://cotenfrontend.pl/">WTF: Co ten frontend?</a></h1>
-                        <p>Cześć, nazywam się Anna Rajkowska i powstanowiłam rozpocząć swoją przygodę na froncie. Do tej pory
-                            żyłam fotografią i z fotografii, ale rzeczywistość 2020 roku dała mi sporo wolnego czasu na naukę nowych
-                            umiejętności ;) Uwielbiam gotować, pielęgnować ogrody i czytać nowinki techniczne. Na codzień mieszkam w Białymstoku i niedawno skończyłam 30 lat.</div>
-                </header>
-            </div>
-        
-
-
-         <section>
-            <div class="article">
-                <div class="article__category"><a href="HTML.html">HTML</a></div>
+          <div class="banner">
+            <img  src="cover.gif" alt="" />
+            <header id="top">
+              <div class="banner__header">
+                <h1>Anna Rajkowska</h1>
+              </div>
+              <div class="banner__header--text">
+                <br /><a href="https://cotenfrontend.pl/"
+                  >WTF: Co ten frontend?</a
+                >
+                <p>
+                  Cześć, nazywam się Anna Rajkowska i powstanowiłam rozpocząć
+                  swoją przygodę na froncie. Do tej pory żyłam fotografią i z
+                  fotografii, ale rzeczywistość 2020 roku dała mi sporo wolnego
+                  czasu na naukę nowych umiejętności ;) Uwielbiam gotować,
+                  pielęgnować ogrody i czytać nowinki techniczne. Na codzień
+                  mieszkam w Białymstoku i niedawno skończyłam 30 lat.
+                </p>
+                <p class="banner__header banner__header--js"></p>
+              </div>
+            </header>
+          </div>
+          <section>
+            <article>
+              <h2>Notatki</h2>
+              <div class="article">
+                <div class="article__category">
+                  <a href="HTML.html">HTML</a>
+                </div>
                 <div class="article__category"><a href="CSS.html">CSS</a></div>
-                <div class="article__category"><a href="JavaScript.html">JavaScript</a></div>
-                <div class="article__category"><a href="informacje-ogolne.html">Informacje Ogólne</a></div>
-                <div class="article__category"><a href="narzedzia.html">Narzędzia</a></div>
-                <div class="article__category"><a href="praca-domowa.html">Praca Domowa</a></div>
-            </div>
-           
-         </section>
-
+                <div class="article__category">
+                  <a href="JavaScript.html">JavaScript</a>
+                </div>
+                <div class="article__category">
+                  <a href="dzienniczek.html">Dzienniczek</a>
+                </div>
+                <div class="article__category">
+                  <a href="narzedzia.html">Narzędzia</a>
+                </div>
+                <div class="article__category">
+                  <a href="praca-domowa.html">Praca Domowa</a>
+                </div>
+              </div>
+            </article>
+          </section>
         </main>
-    
 
         <div class="footer">
-            <footer>Strona powstała jako efekt pracy podczas szkolenia WTF: Co ten frontend 2020. <a href="#top">Wróć na górę
-            strony
-            </footer>
+          <footer>
+            Strona powstała jako efekt pracy podczas szkolenia WTF: Co ten
+            frontend 2020. <a href="#top">Wróć na górę strony</a>
+          </footer>
         </div>
-    </div>
+      </div>
+    </main>
     <script src="main.js"></script>
-   
-</body>
-
+  </body>
 </html>
